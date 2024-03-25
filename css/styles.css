@@ -535,11 +535,16 @@ img {
   border-radius: 4px;
   width: 264px;
   height: 40px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  background-color: transparent;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #2e2f42;
   padding-left: 16px;
   padding-right: 16px;
 }
+
 .footer-input::placeholder {
   font-size: 12px;
   letter-spacing: 0.04em;
@@ -550,6 +555,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -558,16 +564,16 @@ img {
   color: #fff;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
+  cursor: pointer;
   background: #4d5ae5;
   border: none;
-  gap: 16px;
 }
 
 .footer-form {
   display: flex;
-  gap: 24px;
+  gap: 16px;
 }
 .modal-frame {
   fill: #fff;
